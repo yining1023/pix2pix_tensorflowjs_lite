@@ -1,7 +1,7 @@
 # pix2pix in tensorflow.js
 See a live demo here: [https://yining1023.github.io/pix2pix_tensorflowjs_lite/](https://yining1023.github.io/pix2pix_tensorflowjs_lite/)
 
-<a href="https://ibb.co/e0oUUd"><img src="https://preview.ibb.co/fXP3pd/Screen_Shot_2018_06_17_at_11_06_09_PM.png" alt="Screen_Shot_2018_06_17_at_11_06_09_PM" border="0"></a>
+<a href="https://ibb.co/e0oUUd"><img src="images/demo.gif" alt="demo"></a>
 
 Try it yourself: Download/clone the repository and run it locally:
 ```
