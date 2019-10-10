@@ -38,7 +38,7 @@ Credits: This project is based on [affinelayer](https://github.com/affinelayer)'
 Before we start, check out [affinelayer](https://github.com/affinelayer)'s [Create your own dataset](https://github.com/affinelayer/pix2pix-tensorflow#creating-your-own-dataset). I followed his instrustion for steps 1.3, 1.5 and 1.6.
 
 
-#### 1.1 Scrape images from google search
+#### 1.1 Scrape images from google search / Flickr
 We can create our own target images. But for this edge2pikachu project, I downloaded a lot of images from google. I'm using this [google_image_downloader](https://github.com/atif93/google_image_downloader) to download images from google.
 After downloading the repo above, run -
 ```
@@ -46,6 +46,7 @@ $ python image_download.py <query> <number of images>
 ```
 It will download images and save it to the current directory.
 
+You can also yse this library to get images from Flickr: https://github.com/antiboredom/flickr-scrape. You can get an API key for Flickr in a few minutes: https://www.flickr.com/services/api/misc.api_keys.html
 
 #### 1.2 Remove the background of the images
 Some images have some background. I'm using [grabcut](https://docs.opencv.org/trunk/d8/d83/tutorial_py_grabcut.html) with OpenCV to remove background
