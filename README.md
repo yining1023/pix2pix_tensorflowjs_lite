@@ -46,7 +46,7 @@ $ python image_download.py <query> <number of images>
 ```
 It will download images and save it to the current directory.
 
-You can also yse this library to get images from Flickr: https://github.com/antiboredom/flickr-scrape. You can get an API key for Flickr in a few minutes: https://www.flickr.com/services/api/misc.api_keys.html
+You can also try this library to get images from Flickr: https://github.com/antiboredom/flickr-scrape. You can get an API key for Flickr in a few minutes: https://www.flickr.com/services/api/misc.api_keys.html
 
 #### 1.2 Remove the background of the images
 Some images have some background. I'm using [grabcut](https://docs.opencv.org/trunk/d8/d83/tutorial_py_grabcut.html) with OpenCV to remove background
