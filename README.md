@@ -39,16 +39,17 @@ Before we start, check out [affinelayer](https://github.com/affinelayer)'s [Crea
 
 
 #### 1.1 Scrape images from google search / Flickr
-We can create our own target images. But for this edge2pikachu project, I downloaded a lot of images from google. I'm using this [google_image_downloader](https://github.com/atif93/google_image_downloader) to download images from google.
-After downloading the repo above, run -
+We can create our own target images. But for this edge2pikachu project, I downloaded a lot of images from google.
+
+I used this [google_image_downloader](https://github.com/atif93/google_image_downloader) to download images from google. But it requires too much setup, if you manage setup google_image_downloader, you can run -
 ```
 $ python image_download.py <query> <number of images>
 ```
 It will download images and save it to the current directory.
 
-You can also try this library to get images from Flickr: https://github.com/antiboredom/flickr-scrape. You can get an API key for Flickr in a few minutes: https://www.flickr.com/services/api/misc.api_keys.html
-
-Here is a chrome extension can batch download images on a web page: [Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en)
+I recommand the two methods below to get images -
+- You can try this library to get images from Flickr: https://github.com/antiboredom/flickr-scrape. You can get an API key for Flickr in a few minutes: https://www.flickr.com/services/api/misc.api_keys.html
+- Here is a chrome extension can batch download images on a web page: [Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en)
 
 #### 1.2 Remove the background of the images
 Some images have some background. I'm using [grabcut](https://docs.opencv.org/trunk/d8/d83/tutorial_py_grabcut.html) with OpenCV to remove background
