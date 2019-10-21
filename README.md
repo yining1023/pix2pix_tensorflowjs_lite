@@ -48,6 +48,8 @@ It will download images and save it to the current directory.
 
 You can also try this library to get images from Flickr: https://github.com/antiboredom/flickr-scrape. You can get an API key for Flickr in a few minutes: https://www.flickr.com/services/api/misc.api_keys.html
 
+Here is a chrome extension can batch download images on a web page: [Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en)
+
 #### 1.2 Remove the background of the images
 Some images have some background. I'm using [grabcut](https://docs.opencv.org/trunk/d8/d83/tutorial_py_grabcut.html) with OpenCV to remove background
 Check out the script here: [https://github.com/yining1023/pix2pix-tensorflow/blob/master/tools/grabcut.py](https://github.com/yining1023/pix2pix-tensorflow/blob/master/tools/grabcut.py)
